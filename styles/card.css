@@ -1,0 +1,85 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1.6rem;
+    align-items: center;
+}
+
+.line{
+    width: 30rem;
+    margin:  0 auto;
+    height: 0.2rem;
+    background-color: rgb(224, 213, 218);
+}
+
+
+.amount{
+    padding: 2rem;
+    color:rgb(176, 167, 162);
+}
+.amount span{
+    margin-top: 0.7rem;
+    display: flex;
+    font-weight: 700;
+    font-size: 3rem;
+    color:hsl(25, 47%, 15%);
+}
+
+.lastMonth span{
+    display: block;
+    color:hsl(25, 47%, 15%);
+    position:relative;
+    left: 5rem;
+}
+
+.lastMonth{
+    color:rgb(176, 167, 162);
+    padding-right: 2rem;
+
+}
+
+@media (max-width: 700px) {
+    .card {
+        width:25rem;
+    }
+
+    .amount{
+        padding:0;
+    }
+    .amount span{
+        padding: 0;
+    }
+  }
+
+@media (max-width: 340px) {
+
+    .line{
+        width: 70%;
+    }
+    
+    .amount{
+        padding: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .amount span{
+        font-size: 1.5rem;
+    }
+
+    .lastMonth{
+        font-size: 0.9rem;
+        position: relative;
+        bottom: -0.6rem;
+        right: 7rem;
+    }
+
+    .lastMonth span{
+        font-weight: 800;
+        position: relative;
+        left: 3.4rem;
+
+    }
+}

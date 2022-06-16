@@ -1,0 +1,101 @@
+.chart-painel{
+    background-color: #fff;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    color: hsl(25, 47%, 15%);
+}
+
+.chart-painel dt{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.chart{
+    display: flex;
+    gap: 1.3rem;
+    font-weight: 500;
+    align-items: flex-end;
+    padding: 1.7rem;
+}
+
+.chart-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    margin: 0;
+    padding:0;
+}
+.chart-info{
+    opacity: 0.5;
+}
+
+.chart-column{
+    width: 3.5rem;
+    height: 10rem;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chart-column:hover{
+    opacity: 0.7;
+    animation: ease-in-out;
+}
+
+.itemDetail{
+    background-color: hsl(25, 47%, 15%);
+    color: #fff;
+    font-size: 1rem;
+    padding:0.8rem 0.3rem  0.8rem 0.3rem ;
+    border-radius: 8px;
+}
+
+.highest{
+    background-color: hsl(186, 34%, 60%);
+}
+
+@media (max-width: 700px) {
+    .chart-painel {
+        margin-left: 5rem;
+    }
+    .chart{
+        gap:1rem;
+    }
+    .chart-painel dt{
+        font-size: 1.5rem;
+    }
+
+    .chart-column{
+        width: 2.5rem;
+        height: 3rem;
+    }
+    
+}
+
+@media (max-width: 340px) {
+
+    .chart{
+        padding: 0rem;
+        gap: 0.5px;
+        overflow: hidden;
+        padding-bottom: 1rem;
+    }
+
+    .chart-painel dt{
+        font-size: 1.3rem;
+    }
+
+    .chart-painel{
+        width: 18.75rem;
+        margin:0;
+        margin-top: 1rem;
+    }
+
+    .chart-column{
+        width: 1.2em;
+        height: 2rem;
+    }
+}
