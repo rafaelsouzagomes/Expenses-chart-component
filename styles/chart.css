@@ -5,7 +5,7 @@
     color: hsl(25, 47%, 15%);
 }
 
-.chart-painel dt{
+.chart-painel h2{
     padding-top: 2rem;
     padding-left: 3rem;
     font-size: 2rem;
@@ -64,7 +64,7 @@
     .chart{
         gap:1rem;
     }
-    .chart-painel dt{
+    .chart-painel h2{
         font-size: 1.5rem;
     }
 
@@ -84,7 +84,7 @@
         padding-bottom: 1rem;
     }
 
-    .chart-painel dt{
+    .chart-painel h2{
         font-size: 1.3rem;
     }
 
